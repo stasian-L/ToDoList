@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAddText" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnAllText" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="btnCancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnCompleteText" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="btnDeleteText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btnEditText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btnFTaskNewText" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="btnOKText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btnOverdueText" xml:space="preserve">
+    <value>Overdue</value>
+  </data>
+  <data name="btnPendingText" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="btnRefreshText" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="btnSaveText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="CategoryColumnText" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="EndDateColumnText" xml:space="preserve">
+    <value>EndDate</value>
+  </data>
+  <data name="FormAddTaskText" xml:space="preserve">
+    <value>Add task</value>
+  </data>
+  <data name="FormAppText" xml:space="preserve">
+    <value>ToDo List</value>
+  </data>
+  <data name="FormCategoriesText" xml:space="preserve">
+    <value>Manage Categories</value>
+  </data>
+  <data name="FormCateogoryText" xml:space="preserve">
+    <value>New Category</value>
+  </data>
+  <data name="FormEditTaskText" xml:space="preserve">
+    <value>Edit task</value>
+  </data>
+  <data name="HelpText" xml:space="preserve">
+    <value>A to-do list is nothing but a list of tasks you need to complete in a certain period of time.
+
+It’s a very simple, efficient and extremely popular productivity tool.
+
+HOW TO USE?
+On the left there is a calendar for filtering by date, as well as a panel for filtering tasks by status and a button for managing categories; on the top left there are task management buttons: Add, Delete and Edit.
+Clicking on the Add or Edit button opens a window for adding or editing a task.To add a new task, you need to fill in all the fields, select the start and end dates, select or create a new category.
+It is also possible to manage categories. When you click on the Manage Categories button on the main form, a dialog box opens in which a list of available categories is displayed.In this window, you can add a new category and edit the selected one.</value>
+  </data>
+  <data name="lblDescriptionText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblFTaskCategoryText" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="lblFTaskDescriprionText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lblFTaskEndDateText" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="lblFTaskStartDateText" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="lblFTaskTitleText" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lblName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblSearchText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="StartDateColumnText" xml:space="preserve">
+    <value>StartText</value>
+  </data>
+  <data name="StatusColumnText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TitleColumnText" xml:space="preserve">
+    <value>Title</value>
+  </data>
+</root>
